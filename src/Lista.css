@@ -1,0 +1,93 @@
+html{
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tarjeta{
+        margin-top: 30px;
+        background: #ffffff;
+        color: #000000;
+        text-align: center;
+        border: 4px solid #4d5061;
+        border-image: linear-gradient(to left, rgb(12, 186, 255), rgb(4, 23, 29)) 1 0;
+        
+}
+
+.seleccion{
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  font-size: 22px;
+}
+
+.labels {
+  margin-right: 10px; 
+}
+
+img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+h2{
+  margin: 9px;
+}
+
+p{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.border {
+	font-size: 1.6rem;
+	
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+	border: 4px solid;
+  border-radius: 15px;
+  border-color: rgb(5, 48, 77);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
